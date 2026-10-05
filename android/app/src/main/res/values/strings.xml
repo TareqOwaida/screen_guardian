@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Guardian</string>
+    <string name="accessibility_service_description">Screen Guardian uses this service to detect which app is in the foreground and to block apps that are not allowed for the active child profile. It does not read or store any content from your screen.</string>
+    <string name="device_admin_description">Prevents Screen Guardian from being uninstalled while a child profile is active.</string>
+    <string name="blocked_title">This app is not allowed</string>
+    <string name="blocked_body">%1$s can only use the apps chosen by a parent.</string>
+    <string name="time_up_title">Time\'s up!</string>
+    <string name="time_up_body">Screen time for %1$s is over. Ask a parent for more time.</string>
+    <string name="returning_title">Back to your apps</string>
+    <string name="returning_body">%1$s, your screen time continues inside Screen Guardian.</string>
+    <string name="back_to_guardian">Back to Screen Guardian</string>
+</resources>

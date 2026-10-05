@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Screen Time API (FamilyControls / ManagedSettings / DeviceActivity).
+	     Development builds work immediately; App Store distribution requires
+	     requesting the Family Controls (Distribution) entitlement from Apple. -->
+	<key>com.apple.developer.family-controls</key>
+	<true/>
+
+	<!-- NEDNSSettingsManager – system-wide encrypted family-safe DNS -->
+	<key>com.apple.developer.networking.networkextension</key>
+	<array>
+		<string>dns-settings</string>
+	</array>
+
+	<!-- Shared with the DeviceActivity monitor extension -->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.tareq.screenGuardian</string>
+	</array>
+</dict>
+</plist>
